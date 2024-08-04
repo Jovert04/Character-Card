@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Waifu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>UPDATE WAIFU</h1>
+    </header>
+    <main>
+        <form id="waifuForm">
+            <label for="nickname">Nick Name:</label>
+            <input type="text" id="nickname" name="nickname" required>
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" required>
+
+            <label for="birthday">Birthday (MM/DD/YYYY):</label>
+            <input type="text" id="birthday" name="birthday" placeholder="MM/DD/YYYY" required>
+
+            <label for="favoriteFoods">Favorite Foods:</label>
+            <input type="text" id="favoriteFoods" name="favoriteFoods">
+
+            <label for="hobby">Hobby:</label>
+            <input type="text" id="hobby" name="hobby">
+
+            <label for="image" style="margin-top: 20px;">Character Image:</label>
+            <input type="file" id="image" name="image" accept="image/*">
+
+            <button type="submit" id="updateBtn">Update</button>
+        </form>
+    </main>
+
+    <script src="update.js"></script>
+</body>
+</html>
